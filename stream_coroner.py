@@ -33,6 +33,6 @@ if st.button('Test Prediksi'):
     if(ane_prediction[0] == 1):
         coroner_diagnosis = 'Pasien mengidap Jantung Koroner'
     else :
-        coroner_diagnosis = 'Pasien tidak Jantung Koroner'
+        coroner_diagnosis = 'Pasien tidak mengidap Jantung Koroner'
 
     st.success(coroner_diagnosis)
